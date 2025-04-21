@@ -21,3 +21,7 @@ This repository will cover the following fundamental Linux concepts:
 * **Basic Networking in Linux:** An introduction to basic networking concepts and commands in Linux.
 * **Disk and Storage management in Linux:** Managing hard drives, partitions, and file systems in Linux.
 
+## Usage
+
+Feel free to browse the repository and use the information as needed. If you find any errors or have suggestions for improvement, please don't hesitate to contribute.
+
