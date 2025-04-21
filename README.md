@@ -25,3 +25,10 @@ This repository will cover the following fundamental Linux concepts:
 
 Feel free to browse the repository and use the information as needed. If you find any errors or have suggestions for improvement, please don't hesitate to contribute.
 
+## Contributions
+
+As this is primarily is a public learning repository, contributions are actively encouraged also constructive feedback and corrections are always welcome.
+
+## Author
+
+Karthik V T
