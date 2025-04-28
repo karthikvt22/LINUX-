@@ -1,1 +1,40 @@
+Imagine this…
 
+All your apps your browser, your code editor, your music player are fighting over your CPU, memory, and disk at the same time, no rules, no separation, just pure chaos !😵‍💫
+
+->That’s exactly what would happen if there was no operating system. And that’s why Linux exists to bring order, manage resources, and make sure everything runs smoothly without stepping on each other’s toes.
+
+Hence Knowing the operating system is a crucial part, thanks to Abhishek Veeramalla for launching the Free Linux Course .
+
+Day 1 of My Linux Journey->> 
+
+->Linux is an open-source operating system, basically the layer that sits between you (the user) and your hardware (like CPU, RAM, disk, etc.).
+
+->It makes sure apps don’t fight for resources, keeps everything organized, and protects your system from crashing or leaking data. 
+
+Why Linux though?
+
+ ->Free & Open Source – No license headaches, and you can see everything under the hood.
+->Lightweight & Fast – Doesn’t hog resources like some other OSes.
+->Secure by Design – Built for performance and protection.
+->DevOps Friendly – Most cloud-native tools are made to run on Linux. Highly -->Customizable – From the UI to the internals, you can tweak it all.
+
+How is Linux actually structured? 
+
++----------------------------------------------------+
+| User Applications (Vim, Docker, Apache, etc.)   |
++----------------------------------------------------+
+| Shell (Bash, Zsh, Fish, etc.)          | <-- Part of the OS
++----------------------------------------------------+
+| System Libraries (glibc, libc, OpenSSL, etc.)  | <-- Part of the OS
++----------------------------------------------------+
+| System Utilities (ls, grep, systemctl, etc.)   | <-- Part of the OS
++----------------------------------------------------+
+| Linux Kernel (Processes, Memory, FS, Network)    | <-- Core of the OS
++----------------------------------------------------+
+| Hardware (CPU, RAM, Disk, Network, Peripherals)  |
++----------------------------------------------------+
+
+Whether you’re running servers, containers, or even your smart TV Linux is often the silent superhero behind the scenes. Everywhere Powers servers, clouds, phones, IoT devices, and more.
+
+And if you’re aiming for DevOps/SRE/cloud roles like me, knowing Linux is non-negotiable.
