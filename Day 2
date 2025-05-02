@@ -18,3 +18,11 @@ B). /home → Default location for user home directories.
 C). /sbin → System binaries, all the administrative commands are present here, like useradd.
 D). /lib → Libraries, used by the Linux kernel to execute system calls or actions.
 E). /boot → Contains binaries which help the system load whenever the system is booted again.
+F). /bin → Binaries, contains commands used on a regular basis by users, and does not require root permissions.
+G). /srv → Server, has all the configurations of the server which you are working on — or maybe other servers.
+H). /opt → Where all the 3rd party applications are stored or downloaded.
+I). /mnt → Mounts extra volume to the system if necessary. Mostly used by system admins.
+J). /var → Variable, used to store log files or files related to 3rd party applications.
+K). /data → Contains data which can be shared with others or shareable files in precise.
+L). /tmp → Stores temporary files which will be eventually deleted after some time.
+M). /root → The root user who has majority of the access and administrative powers.
