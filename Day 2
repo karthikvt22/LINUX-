@@ -8,3 +8,13 @@ No no, this isn’t about knowing your house, it’s about understanding your Li
 
 This is my day 2 of Linux Journey (File Structure)->
  
+But before we even get into that... How does the terminal even understand a command?
+-> Whenever you enter a command in the terminal, it scans the system's PATH to look for related executables. If it finds something related (like a binary), it executes it.
+--For example, when you type ls, its binary is already installed in a directory like /bin, so it runs instantly. Cool, right?
+
+SOO COMING TO THE MAIN PART
+A). root@ubuntu-dev:/# → This is the Linux shell prompt, and it shows who you are, which computer you're on, and where you are in the system.
+B). /home → Default location for user home directories.
+C). /sbin → System binaries, all the administrative commands are present here, like useradd.
+D). /lib → Libraries, used by the Linux kernel to execute system calls or actions.
+E). /boot → Contains binaries which help the system load whenever the system is booted again.
