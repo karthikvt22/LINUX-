@@ -27,4 +27,7 @@ Now coming to the commands:
  -> cat /etc/group
 8. How to add users to a group?
  -> usermod -aG groupname username
+--->> Now after creating a new user and credentials for an employee, how will they connect to the server?
+-> By default, the server runs sshd, and the user should install something like an SSH client which will help them connect using the credentials shared by the admin or root. Simple, right?
+
 
