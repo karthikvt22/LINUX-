@@ -1,0 +1,17 @@
+USER MANAGEMENT –> In an organization where their applications run on Linux servers and employees(users) are handling it, user management is crucial and plays a vital role.
+
+-> Like, just imagine, what if a junior developer accidentally deletes some important files? Or maybe someone’s cooking something fishy on the servers?
+Your servers might be on the edge of getting corrupted. That’s why user management is super important for proper authentication, authorization, and other key steps.
+
+So on my 3rd day of Linux, I learnt about user management like adding, deleting users, groups, and setting passwords!
+
+->USER-- A user is basically anyone who logs into the Linux system.
+->GROUP-- A group is a collection of users. Instead of giving permissions one by one, you can assign them to the whole group.
+
+Now coming to the commands:
+1. How to add a user?
+ There are two ways:
+ a) useradd username
+ b) adduser username –> this also attaches a home directory to the user.
+2. How to check if it’s added or not?
+ -> cat /etc/passwd
