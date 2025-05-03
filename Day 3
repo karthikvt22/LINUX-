@@ -15,3 +15,16 @@ Now coming to the commands:
  b) adduser username –> this also attaches a home directory to the user.
 2. How to check if it’s added or not?
  -> cat /etc/passwd
+3. How to delete a user?
+ -> userdel username
+4. How to set a password for the user?
+-> passwd username
+5. How to check if the password is added?
+ -> cat /etc/shadow
+6. How to create groups?
+ -> groupadd name_of_group
+7. How to check if the group is created?
+ -> cat /etc/group
+8. How to add users to a group?
+ -> usermod -aG groupname username
+
