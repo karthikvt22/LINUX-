@@ -10,6 +10,7 @@ Okay, back to the topic ,now, when you want to check what permissions a file or 
 ->One of the first things you'll notice is something like this: -|rw-|rwx-|r--|. 
 This string of characters shows file permissions for three types of users: the user (owner), the group, and others. They always follow that order.
 To modify these permissions, Linux provides the chmod command (short for change mode). 
+
 ->For example, you can use chmod u=rwx filename to give the user read, write, and execute permissions.
 
 ->Similarly, you can use chmod g=rwx for the group or chmod o=rwx for others.
