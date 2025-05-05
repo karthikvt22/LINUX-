@@ -1,0 +1,13 @@
+Do you love ice cream?
+
+
+I sure do! But my mom used to restrict me from having it. Even though it was right there, I had to ask for permission to enjoy it ,whether it was meant for me (user), my family (group), or guests (others).
+
+Sounds familiar? Well, Linux does the same thing with file permissions! (Okay, maybe not with ice cream, but you get the idea 😅)
+
+Okay, back to the topic ,now, when you want to check what permissions a file or directory has, you can use the ls -ltr command. 
+
+->One of the first things you'll notice is something like this: -|rw-|rwx-|r--|. 
+This string of characters shows file permissions for three types of users: the user (owner), the group, and others. They always follow that order.
+To modify these permissions, Linux provides the chmod command (short for change mode). 
+
