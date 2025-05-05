@@ -20,7 +20,7 @@ Another way to set permissions is by using numbers, since Linux assigns values t
 
 ->On the other hand, chmod 444 gives only read permission to all, and you can also use chmod 222 or chmod 111 for write only or execute only respectively.
 
-->Now you might wonder what about chown? Well, chown is used to change the ownership of a file or directory. This is important when you want to transfer control of a file to another user or group. 
+->Now you might wonder what about chown? Well, chown is used to change the ownership of a file or directory.This is important when you want to transfer control of a file to another user or group. 
 
 >>>Just a note: whenever you create a file in Linux, it automatically applies default configurations and ownership settings based on your user profile and system rules.
 
