@@ -10,4 +10,17 @@ Okay, back to the topic ,now, when you want to check what permissions a file or 
 ->One of the first things you'll notice is something like this: -|rw-|rwx-|r--|. 
 This string of characters shows file permissions for three types of users: the user (owner), the group, and others. They always follow that order.
 To modify these permissions, Linux provides the chmod command (short for change mode). 
+->For example, you can use chmod u=rwx filename to give the user read, write, and execute permissions.
 
+->Similarly, you can use chmod g=rwx for the group or chmod o=rwx for others.
+Another way to set permissions is by using numbers, since Linux assigns values to each permission: read is 4, write is 2, and execute is 1. When combined, these values give you full control for example, chmod 777 filename gives all permissions (rwx) to user, group, and others. 
+
+->On the other hand, chmod 444 gives only read permission to all, and you can also use chmod 222 or chmod 111 for write only or execute only respectively.
+
+->Now you might wonder what about chown? Well, chown is used to change the ownership of a file or directory. This is important when you want to transfer control of a file to another user or group. 
+
+>>>Just a note: whenever you create a file in Linux, it automatically applies default configurations and ownership settings based on your user profile and system rules.
+
+So this was my Day 4 of Linux With Abhishek Veeramalla, Thank You for making it smooth and easy to understand.
+
+Well now i have to ask my mom to give me ad chmod 777 icecream permissions Please mom. 
