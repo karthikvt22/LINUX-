@@ -1,6 +1,5 @@
 Part 1->Process Management in Linux 🤷‍♂️ 
 
-
 A process is a running program, like an app or a script. When multiple processes are running, Linux assumes the ones using the most CPU or memory are the most important, but that’s not always the case. To manage this, Linux provides several commands for viewing, controlling, and prioritizing processes.
 
 ->>Viewing Processes
