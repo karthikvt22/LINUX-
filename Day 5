@@ -27,5 +27,11 @@ fg %jobnumber –> Bring a job to the foreground
 Ctrl + Z –> Suspend a running process
 bg %jobnumber –> Resume a suspended process in the background
 
+->>Daemon Process Management
+systemctl list-units --type=service –> List system services (daemons)
+systemctl start service-name –> Start a service
+systemctl stop service-name –> Stop a service
+systemctl enable service-name –> Enable a service at startup
 
+The important takeaway is how nice and renice commands help me control the priority of processes. A lower nice value means a higher priority, and a higher nice value means a lower priority.
 
